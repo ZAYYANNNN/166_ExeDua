@@ -72,4 +72,28 @@ button {
     transition: background-color 0.3s ease;
 }
 
+button:hover {
+    background-color: #031eb6;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+
 
