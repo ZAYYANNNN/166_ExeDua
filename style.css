@@ -43,4 +43,12 @@ h2 {
     text-align: center;
 }
 
+audio {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+
 
