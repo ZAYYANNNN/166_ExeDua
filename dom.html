@@ -22,3 +22,32 @@
 
                 <label for="asal">Asal</label><br>
                 <input type="text" pltaceholder="Masukkan Asal Anda" id="asal" required><br><br>
+
+                <label for="isian-tanggal-lahir">Tanggal Lahir</label> <br>
+                <input type="date" name="tgl" id="tgl" required><br><br>
+
+                <label for="pemainFavorit">Pemain Favorit</label><br>
+                <input type="text" placeholder="Masukkan Pemain Favorit Anda" id="pemainFavorit" required><br><br>
+
+                <label for="">Jersey Musim Favorit</label>
+                <select name="Jersey" id="Jersey" required>
+                    <option value="Home 2023/2024">Home 2023/2024</option>
+                    <option value="Away 2023/2024">Away 2023/2024</option>
+                    <option value="Home 2019/2020">Home 2019/2020</option>
+                    <option value="Away 2019/2020">Away 2019/2020</option>
+                </select><br><br>
+        
+                <label for="coachFavorit">Coach Favorit</label><br>
+                <input type="text" placeholder="Masukkan Coach Favorit Anda" id="coachFavorit" required><br><br>
+            
+                <label for="">Pesan Kesan</label><br>
+                <textarea name="KesanPesan" id="Kesan"
+                placeholder="Masukkan Pesan Kesan mu"
+                cols="30" rows="5"></textarea><br><br>
+        
+                <div class="button-container">
+                    <button type="button" class="back-button" onclick="goBack()">Kembali</button>
+                    <button type="submit">Kirim</button>
+                </div>
+            </form>
+        </div>
